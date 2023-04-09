@@ -67,5 +67,13 @@ Below tools have been utilized for the various segments involving Data Profiling
  	<a href="#">
         <img height=100 src="img/tlnd.png" alt="Talend" title="Talend" hspace=80> 
   </a>
+<br>
+</p>
+<br>
+<p align="center">  
     <br>
+ 	<a href="#">
+        <img height=100 src="img/bigquery.png" alt="BigQuery" title="BigQuery" hspace=80> 
+  </a>
+<br>
 </p>
