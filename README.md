@@ -12,7 +12,7 @@ In this dataset sourced from NYC Open Data portal, we need to design and impleme
 
 ## Learning
 
-This project has a strong emphasis on applied learning. I got to analyze restaurants inspections happening in NYC, using information from the NYC Open Data portal to build a data engineering pipeline involving data extraction, data cleansing, transformation, exploratory analysis, data visualization, and data flow orchestration of event data on the cloud.
+This project has a strong emphasis on applied learning. I got to analyze the traffic accidents happening in NYC, using information from the NYC Open Data portal to build a data engineering pipeline involving data extraction, data cleansing, transformation, exploratory analysis, data visualization, and data flow orchestration of event data on the cloud.
 
 ## Data Source
 
@@ -58,6 +58,14 @@ Below tools have been utilized for the various segments involving Data Profiling
   </a>
   	<a href="#">
         <img height=100 src="img/tableau.png" alt="Tableau" title="Tableau" hspace=80> 
+  </a>
+    <br>
+</p>
+<br>
+<p align="center">  
+    <br>
+ 	<a href="#">
+        <img height=100 src="img/tlnd.png" alt="Talend" title="Talend" hspace=80> 
   </a>
     <br>
 </p>
