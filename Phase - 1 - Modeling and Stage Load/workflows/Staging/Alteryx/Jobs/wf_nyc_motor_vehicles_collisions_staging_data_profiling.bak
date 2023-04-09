@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="30" width="1512" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>New York City (NYC) Motor Vehicles (MV) Collisions Data Profiling Workflow
+Target Database  - SQL Server (Localhost)</Text>
+          <Font name="Arial" size="26.25" style="1" />
+          <TextColor name="Black" />
+          <FillColor r="206" g="234" b="255" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>wf_nyc_motor_vehicles_collisions_staging_data_profiling</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="41bb25ae-60ba-4f46-9f44-432109bfc03a" />
+      <Telemetry>
+        <PreviousWorkflowId value="51d6a201-56a6-49ca-a1ce-6b9382fde0b3" />
+        <OriginWorkflowId value="51d6a201-56a6-49ca-a1ce-6b9382fde0b3" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
