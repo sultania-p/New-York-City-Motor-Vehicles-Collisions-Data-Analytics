@@ -112,3 +112,16 @@ This project leverages the capability of ER/Studio Data Architect to design, vis
 	Figure 2 : New York City Motor Vehicles Collisions Dimensional Data Model
 </p>
 <br>
+
+## Data Integration / ETL Pipeline
+
+In this project, data is analysed, profiled, transformed and loaded into Microsoft SQL server by Talend and Alteryx. Data is collected from BigQuery and flat files (csv/tsv) and is moved to landing zones (Stage) in SQL Server.
+
+The ETL process involved 2 layer of data landing, transformation and loading.
+- **Landing or Staging Data Layer**: The data is extracted form source and staged into the SQL Server database. Here the main focus is to land the data from source with minimal transformation (as-is data load). Also, ETL Audit fields such as DI_PID, DI_Create_Date etc. were added to identify newly loaded or updated records by using audit columns.
+
+	|              Schema                      |             Table  	   |
+	|:----------------------------------------:|:-----------------------------:|
+	|               NYC_MV                |    STG_NYC_MV_COLLISIONS_BIGQUERY  |
+	|               NYC_MV                |    STG_NYC_MV_COLLISION_VEHICLES   |
+	|               NYC_MV                |    STG_NYC_MV_COLLISION_PERSONS    |
