@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
- <img src="./img/nypd.png" title="NYC Open Data logo" alt = "NYC Open Data logo" />
+ <img src="./img/nypd.png" title="New York City Police Department" alt = "New York City Police Department" />
 </p>
 
 ## Problem Definition
@@ -88,3 +88,27 @@ Below tools have been utilized for the various segments involving Data Profiling
   </a>
 <br>
 </p>
+
+## Data Modeling
+
+This project leverages the capability of ER/Studio Data Architect to design, visualize, and manage data models and metadata for the database. ER/Studio allowed to create conceptual, logical, and physical data models and map the relationships and dependencies between them. The methodology of data modeling has been an iterative process of design, review, feedback and enhancements adhering the business and end-user requirements.
+
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/stagemodel.jpg"> 
+  </a>		
+    <br>
+	Figure 1 : New York City Motor Vehicles Collisions Stage Data Model
+</p>
+<br>
+
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/dim_model-1.jpg"> 
+  </a>		
+    <br>
+	Figure 2 : New York City Motor Vehicles Collisions Dimensional Data Model
+</p>
+<br>
