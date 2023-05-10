@@ -125,3 +125,144 @@ The ETL process involved 2 layer of data landing, transformation and loading.
 	|               NYC_MV                |    STG_NYC_MV_COLLISIONS_BIGQUERY  |
 	|               NYC_MV                |    STG_NYC_MV_COLLISION_VEHICLES   |
 	|               NYC_MV                |    STG_NYC_MV_COLLISION_PERSONS    |
+	
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/stage_load_1.jpg"> 
+  </a>		
+    <br>
+	Figure 3 : New York City Motor Vehicle Collisions BigQuery Data Staging Workflow
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/stage_load_2.jpg"> 
+  </a>		
+    <br>
+	Figure 3 : New York City Motor Vehicle Collisions Persons Data Staging Workflow
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/stage_load_4.jpg"> 
+  </a>		
+    <br>
+	Figure 3 : New York City Motor Vehicle Collisions - Staging Workflow Orchestration
+</p>
+<br>
+
+- **Dimensional Data Layer**: Data is loaded to multi-fact dimensional data warehouse after performing extraction from Stage and transformation with defined rules and performed data quality checks post data load. I also addded DI attributes (audit columns) to each dimension and fact for record audit and maintenance. Also, below are few workflows to load some dimensions and facts tables.
+
+	|              Schema                  |             Table  	   |
+	|:------------------------------------:|:-------------------------:|
+	|               NYC_MV                 |    Dim_vehicle_type_code  |
+	|               NYC_MV                 |    fct_collision_persons  |
+	|               NYC_MV                 |    fct_collision_crashes  |
+	|               NYC_MV                 |    fct_Collisions_Vehicles  |
+	|               NYC_MV                 |    fct_collision_crashes_vehicles  |
+	|               NYC_MV                 |    fct_collision_persons_contributing_factors  |
+	|               NYC_MV                 |    fct_Collisions_Vehicles_Contributing_Factors  |
+	|               NYC_MV                 |    fct_Collisions_Vechicles_Contributing_Factors_Tnx  |
+	|               NYC_MV                 |    fct_collision_persons_contributing_factors_Tnx  |
+	|               NYC_MV                 |    fct_Collisions_Vehicles_Vehicle_Damage  |
+	|               NYC_MV                 |    stg_nyc_mv_collision_vehicles  |
+	|               NYC_MV                 |    ERR_Model_Year  |
+	|               NYC_MV                 |    ERR_Person_Age  |
+	|               NYC_MV                 |    stg_nyc_mv_collision_persons  |
+	|               NYC_MV                 |    dim_arrest_borough  |
+	|               NYC_MV                 |    fct_Collisions_Vehicles_Vehicle_Damage_Tnx  |
+	|               NYC_MV                 |    Dim_COMPLAINT  |
+	|               NYC_MV                 |    Dim_CONTRIBUTING_FACTOR  |
+	|               NYC_MV                 |    Dim_DRIVER_LICENSE_JURISDICTION  |
+	|               NYC_MV                 |    Dim_DRIVER_LICENSE_STATUS  |
+	|               NYC_MV                 |    Dim_EJECTION  |
+	|               NYC_MV                 |    Dim_VEHICLE_TYPE  |
+	|               NYC_MV                 |    Dim_POSITION_IN_VEHICLE  |
+	|               NYC_MV                 |    Dim_PRE_CRASH  |
+	|               NYC_MV                 |    Dim_SAFETY_EQUIPMENT  |
+	|               NYC_MV                 |    Dim_STATE_REGISTRATION  |
+	|               NYC_MV                 |    Dim_TRAVEL_DIRECTION  |
+	|               NYC_MV                 |    Dim_EMOTIONAL_STATUS  |
+	|               NYC_MV                 |    Dim_PED_LOCATION  |
+	|               NYC_MV                 |    Dim_PED_ACTION  |
+	|               NYC_MV                 |    Dim_PED_ROLE  |
+	|               NYC_MV                 |    Dim_PersonType  |
+	|               NYC_MV                 |    Dim_POINT_OF_IMPACT  |
+	|               NYC_MV                 |    Dim_PUBLIC_PROPERTY_DAMAGE  |
+	|               NYC_MV                 |    Dim_VEHICLE_DAMAGE  |	
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/d01_dim_vehicle_damage.jpg">
+  </a>		
+    <br>
+	Figure 4 : New York City Motor Vehicle Dimensional Workflow (Vehicle Damage)
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/d02_dim_vehicle_type_code.jpg">
+  </a>		
+    <br>
+	Figure 4 : New York City Motor Vehicle Dimensional Workflow (Vehicle Type)
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/f02_fct_Collisions_Vehicles.jpg">
+  </a>		
+    <br>
+	Figure 4 : New York City Motor Vehicle Fact Workflow (Collisions Vehicles)
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/f01_fct_collision_persons.jpg">
+  </a>		
+    <br>
+	Figure 4 : New York City Motor Vehicle Fact Workflow (Collisions Persons)
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/f06_fct_Collisions_Vehicles_Vehicle_Damage.jpg">
+  </a>		
+    <br>
+	Figure 4 : New York City Motor Vehicle Fact Workflow (Collisions Vehicle Damages)
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/f07_fct_collision_crashes_vehicles.jpg">
+  </a>		
+    <br>
+	Figure 4 : New York City Motor Vehicle Fact Workflow (Crashes Vehicles)
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/Ops-2.jpg">
+  </a>		
+    <br>
+	Figure 4 : New York City Motor Vehicle Workflows Orchestration (DI Control Jobs)
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/Ops-1.jpg">
+  </a>		
+    <br>
+	Figure 4 : New York City Motor Vehicle Data Load Statistics (Integration System)
+</p>
+<br>
