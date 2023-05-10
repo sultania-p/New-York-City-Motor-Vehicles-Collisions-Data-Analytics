@@ -141,7 +141,7 @@ The ETL process involved 2 layer of data landing, transformation and loading.
         <img src="img/stage_load_2.jpg"> 
   </a>		
     <br>
-	Figure 3 : New York City Motor Vehicle Collisions Persons Data Staging Workflow
+	Figure 4 : New York City Motor Vehicle Collisions Persons Data Staging Workflow
 </p>
 <br>
 <p align="center">  
@@ -150,7 +150,7 @@ The ETL process involved 2 layer of data landing, transformation and loading.
         <img src="img/stage_load_4.jpg"> 
   </a>		
     <br>
-	Figure 3 : New York City Motor Vehicle Collisions - Staging Workflow Orchestration
+	Figure 5 : New York City Motor Vehicle Collisions - Staging Workflow Orchestration
 </p>
 <br>
 
@@ -209,7 +209,7 @@ The ETL process involved 2 layer of data landing, transformation and loading.
         <img src="img/d02_dim_vehicle_type_code.jpg">
   </a>		
     <br>
-	Figure 4 : New York City Motor Vehicle Dimensional Workflow (Vehicle Type)
+	Figure 6 : New York City Motor Vehicle Dimensional Workflow (Vehicle Type)
 </p>
 <br>
 <p align="center">  
@@ -218,7 +218,7 @@ The ETL process involved 2 layer of data landing, transformation and loading.
         <img src="img/f02_fct_Collisions_Vehicles.jpg">
   </a>		
     <br>
-	Figure 4 : New York City Motor Vehicle Fact Workflow (Collisions Vehicles)
+	Figure 7 : New York City Motor Vehicle Fact Workflow (Collisions Vehicles)
 </p>
 <br>
 <p align="center">  
@@ -227,7 +227,7 @@ The ETL process involved 2 layer of data landing, transformation and loading.
         <img src="img/f01_fct_collision_persons.jpg">
   </a>		
     <br>
-	Figure 4 : New York City Motor Vehicle Fact Workflow (Collisions Persons)
+	Figure 8 : New York City Motor Vehicle Fact Workflow (Collisions Persons)
 </p>
 <br>
 <p align="center">  
@@ -236,7 +236,7 @@ The ETL process involved 2 layer of data landing, transformation and loading.
         <img src="img/f06_fct_Collisions_Vehicles_Vehicle_Damage.jpg">
   </a>		
     <br>
-	Figure 4 : New York City Motor Vehicle Fact Workflow (Collisions Vehicle Damages)
+	Figure 9 : New York City Motor Vehicle Fact Workflow (Collisions Vehicle Damages)
 </p>
 <br>
 <p align="center">  
@@ -245,7 +245,7 @@ The ETL process involved 2 layer of data landing, transformation and loading.
         <img src="img/f07_fct_collision_crashes_vehicles.jpg">
   </a>		
     <br>
-	Figure 4 : New York City Motor Vehicle Fact Workflow (Crashes Vehicles)
+	Figure 10 : New York City Motor Vehicle Fact Workflow (Crashes Vehicles)
 </p>
 <br>
 <p align="center">  
@@ -254,7 +254,7 @@ The ETL process involved 2 layer of data landing, transformation and loading.
         <img src="img/Ops-2.jpg">
   </a>		
     <br>
-	Figure 4 : New York City Motor Vehicle Workflows Orchestration (DI Control Jobs)
+	Figure 11 : New York City Motor Vehicle Workflows Orchestration (DI Control Jobs)
 </p>
 <br>
 <p align="center">  
@@ -263,7 +263,7 @@ The ETL process involved 2 layer of data landing, transformation and loading.
         <img src="img/Ops-1.jpg">
   </a>		
     <br>
-	Figure 4 : New York City Motor Vehicle Data Load Statistics (Integration System)
+	Figure 12 : New York City Motor Vehicle Data Load Statistics (Integration System)
 </p>
 <br>
 
@@ -274,10 +274,45 @@ BI reporting—preparing, analyzing, and portraying business metrics is fundamen
 <p align="center">  
   <br>
 	<a href="#">
-        <img src="img/Executive Summary Page.jpg">
+        <img src="Phase -3 - BI Reporting and Analytics/Executive Summary Page.jpg">
   </a>		
     <br>
-	Figure 4 : New York City Motor Vehicle Data Load Statistics (Integration System)
+	Figure 13 : New York City Motor Vehicle Data BI Reporting (Executive Summary)
 </p>
 <br>
-
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Phase -3 - BI Reporting and Analytics/Collisions Analysis by Neighborhood.jpg">
+  </a>		
+    <br>
+	Figure 14 : New York City Motor Vehicle Data BI Reporting (Collisions Analysis by Neighborhood)
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Phase -3 - BI Reporting and Analytics/Collisions by Seasonality.jpg">
+  </a>		
+    <br>
+	Figure 15 : New York City Motor Vehicle Data BI Reporting (Collisions by Seasonality)
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Phase -3 - BI Reporting and Analytics/Collisions by Time of Day.jpg">
+  </a>		
+    <br>
+	Figure 16 : New York City Motor Vehicle Data BI Reporting (Collisions by Time of Day)
+</p>
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="Phase -3 - BI Reporting and Analytics/Total Collisions by ZipCode.jpg">
+  </a>		
+    <br>
+	Figure 17 : New York City Motor Vehicle Data BI Reporting (Total Collisions by ZipCode)
+</p>
+<br>
