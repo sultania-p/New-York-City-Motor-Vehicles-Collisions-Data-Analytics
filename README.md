@@ -266,3 +266,18 @@ The ETL process involved 2 layer of data landing, transformation and loading.
 	Figure 4 : New York City Motor Vehicle Data Load Statistics (Integration System)
 </p>
 <br>
+
+## BI Reporting
+
+BI reporting—preparing, analyzing, and portraying business metrics is fundamental to every business. The goal of BI reporting is to provide data insights to support decision making. This project leverages the potential of Power BI to derive key business insights by identifying key measurements such as Total Collisions by Geography and Time, Total Vehilces involved in Collisions, Fatalities KPIs The BI reports and dashboards developed as part of this project serves the purpose of identifying the accidents patterns and top contributing factors in those collisions. Some of the snapshots of the dashboards are attached below:
+<br>
+<p align="center">  
+  <br>
+	<a href="#">
+        <img src="img/Executive Summary Page.jpg">
+  </a>		
+    <br>
+	Figure 4 : New York City Motor Vehicle Data Load Statistics (Integration System)
+</p>
+<br>
+
